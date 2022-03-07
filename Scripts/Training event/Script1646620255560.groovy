@@ -20,9 +20,11 @@ import org.openqa.selenium.Keys as Keys
 //Navigate to Admin Portal
 WebUI.openBrowser('')
 
-//Login as an Admin user
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://st-wa-qa-adminportal.azurewebsites.net/mc/login')
 
+//Login as an Admin user
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_EBT Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Sign in to your account/input_Sign in_loginfmt'), 'admin.snowiq@eastbanctech.com')
@@ -38,15 +40,14 @@ WebUI.click(findTestObject('Object Repository/Page_Sign in to your account/input
 //Open nav menu
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Active Storm Ops_fake-clickable-sidebar_414a65'))
 
-WebUI.maximizeWindow()
-
+//Open Administration > Events > Event management
 WebUI.scrollToElement(findTestObject('Page_SnowIQ  Storm Operations/div_Events'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Events'))
 
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Event Management'))
 
-//Create new event
+//Create new training event
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Create New Storm Event'))
 
 WebUI.setText(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/input_Event Name_eventName'), 'Test training event')
