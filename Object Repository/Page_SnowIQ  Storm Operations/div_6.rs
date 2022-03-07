@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Create</name>
+   <name>div_6</name>
    <tag></tag>
-   <elementGuidId>a0c09b5e-7837-4b34-b8c2-829fd3cc79d7</elementGuidId>
+   <elementGuidId>8e5e5b2d-f926-4532-8069-8d6baeb3762e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.snow-popup__action > button.ng-star-inserted</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[37]</value>
+         <value>//div[@id='createNewEventPopup']/div/div[3]/div/form/div[2]/div/app-datepicker/div/div/app-calendar/div/div[2]/div[2]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-star-inserted</value>
+      <value>calendar__day</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Create</value>
+      <value> 6 </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-default-page-layout[@class=&quot;ng-star-inserted&quot;]/app-layout[1]/div[@class=&quot;body&quot;]/app-events-root[@class=&quot;ng-star-inserted&quot;]/app-create-event[@class=&quot;ng-star-inserted&quot;]/app-popup[@id=&quot;createNewEventPopup&quot;]/div[@id=&quot;createNewEventPopup&quot;]/div[@class=&quot;snow-popup__window snow-popup__window_small&quot;]/div[@class=&quot;snow-popup__body&quot;]/div[@class=&quot;snow-popup__actions&quot;]/div[1]/div[@class=&quot;snow-popup__action&quot;]/button[@class=&quot;ng-star-inserted&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-default-page-layout[@class=&quot;ng-star-inserted&quot;]/app-layout[1]/div[@class=&quot;body&quot;]/app-events-root[@class=&quot;ng-star-inserted&quot;]/app-create-event[@class=&quot;ng-star-inserted&quot;]/app-popup[@id=&quot;createNewEventPopup&quot;]/div[@id=&quot;createNewEventPopup&quot;]/div[@class=&quot;snow-popup__window snow-popup__window_small&quot;]/div[@class=&quot;snow-popup__body&quot;]/div[1]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;controlgroup controlgroup_vertical controlgroup_full-width&quot;]/div[@class=&quot;controlgroup__control&quot;]/app-datepicker[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;datepicker datepicker_full-width&quot;]/div[@class=&quot;datepicker__calendar&quot;]/app-calendar[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;calendar&quot;]/div[@class=&quot;calendar__body&quot;]/div[@class=&quot;calendar__row ng-star-inserted&quot;]/div[@class=&quot;calendar__cell calendar__cell_clickable ng-star-inserted&quot;]/div[@class=&quot;calendar__day&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[37]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='createNewEventPopup']/div/div[3]/div[2]/div/div[2]/button</value>
+      <value>//div[@id='createNewEventPopup']/div/div[3]/div/form/div[2]/div/app-datepicker/div/div/app-calendar/div/div[2]/div[2]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='March 2022'])[5]/following::div[20]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Training'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activation Time'])[2]/following::div[27]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Create']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AM'])[1]/preceding::div[66]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Predicted Precipitation (inches)'])[1]/preceding::div[73]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/button</value>
+      <value>//div[2]/div/app-datepicker/div/div/app-calendar/div/div[2]/div[2]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Create' or . = 'Create')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[36]</value>
+      <value>//div[(text() = ' 6 ' or . = ' 6 ')]</value>
    </webElementXpaths>
 </WebElementEntity>

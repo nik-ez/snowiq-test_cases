@@ -17,9 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Navigate to Admin Portal
 WebUI.openBrowser('')
 
-'Login as an Admin user'
+//Login as an Admin user
 WebUI.navigateToUrl('https://st-wa-qa-adminportal.azurewebsites.net/mc/login')
 
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_EBT Login'))
@@ -34,35 +35,27 @@ WebUI.click(findTestObject('Object Repository/Page_Sign in to your account/input
 
 WebUI.click(findTestObject('Object Repository/Page_Sign in to your account/input_Sign in_idSIButton9'))
 
+//Open nav menu
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Active Storm Ops_fake-clickable-sidebar_414a65'))
+
+WebUI.maximizeWindow()
+
+WebUI.scrollToElement(findTestObject('Page_SnowIQ  Storm Operations/div_Events'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Events'))
 
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Event Management'))
 
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/span_Event Name_checkbox__status'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Filter'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/td_Phases test'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/td_Workflow test'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Clear'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/span_Filter_ico ico-filter'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/td_Testing'))
-
+//Create new event
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Create New Storm Event'))
 
-WebUI.setText(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/input_Event Name_eventName'), 'Training test')
+WebUI.setText(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/input_Event Name_eventName'), 'Test training event')
 
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/input_Activation Time_activationTime'))
 
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_24'))
+WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_6'))
 
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/form_Event NameActivation TimeFebruary 2022_e6e630'))
+WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/form_Event NameActivation TimeMarch 2022   _4642c6'))
 
 WebUI.setText(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/input_Predicted Precipitation (inches)_pred_a51f9f'), 
     '4')
@@ -80,27 +73,23 @@ WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/span
 
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Create'))
 
+//Filter Training events
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/span_Event Name_checkbox__status'))
 
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Filter'))
 
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Archive'))
+//Verify last event exists and has proper values
+WebUI.verifyElementText(findTestObject('Page_SnowIQ  Storm Operations/td_Event name in the list'), 'Test training event')
 
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Archive_1'))
+WebUI.verifyElementText(findTestObject('Page_SnowIQ  Storm Operations/td_Event status'), 'New')
 
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Filter'))
+//Delite event
+WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Activate'))
+WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_delete (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Activate_1'))
+WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/td_Test-event-03032022'))
 
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/td_Training test'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Archive'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Archive_1'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_Remove'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_remove (1)'))
+//Close browser
+WebUI.closeBrowser()
 

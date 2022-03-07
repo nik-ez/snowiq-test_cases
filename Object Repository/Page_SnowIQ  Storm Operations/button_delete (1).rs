@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Create</name>
+   <name>button_delete (1)</name>
    <tag></tag>
-   <elementGuidId>a0c09b5e-7837-4b34-b8c2-829fd3cc79d7</elementGuidId>
+   <elementGuidId>732408b5-350f-4434-9b4e-a7dc657af5a4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.snow-popup__action > button.ng-star-inserted</value>
+         <value>div.snow-popup__action.ng-star-inserted > button[type=&quot;button&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[37]</value>
+         <value>(//button[@type='button'])[39]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,80 +31,59 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ng-star-inserted</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Create</value>
+      <value>delete</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-default-page-layout[@class=&quot;ng-star-inserted&quot;]/app-layout[1]/div[@class=&quot;body&quot;]/app-events-root[@class=&quot;ng-star-inserted&quot;]/app-create-event[@class=&quot;ng-star-inserted&quot;]/app-popup[@id=&quot;createNewEventPopup&quot;]/div[@id=&quot;createNewEventPopup&quot;]/div[@class=&quot;snow-popup__window snow-popup__window_small&quot;]/div[@class=&quot;snow-popup__body&quot;]/div[@class=&quot;snow-popup__actions&quot;]/div[1]/div[@class=&quot;snow-popup__action&quot;]/button[@class=&quot;ng-star-inserted&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-default-page-layout[@class=&quot;ng-star-inserted&quot;]/app-layout[1]/div[@class=&quot;body&quot;]/app-events-root[@class=&quot;ng-star-inserted&quot;]/app-page-body-container[1]/div[@class=&quot;content-wrapper&quot;]/app-events-list[@class=&quot;content&quot;]/app-loader[1]/app-confirmation[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;snow-popup snow-popup_bg ng-star-inserted&quot;]/div[@class=&quot;snow-popup__window&quot;]/div[@class=&quot;snow-popup__actions&quot;]/div[@class=&quot;snow-popup__action ng-star-inserted&quot;]/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[37]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='createNewEventPopup']/div/div[3]/div[2]/div/div[2]/button</value>
+      <value>(//button[@type='button'])[39]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Training'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='permanently delete this event?'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Create']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='delete']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/button</value>
+      <value>//div[2]/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Create' or . = 'Create')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[36]</value>
+      <value>//button[@type = 'button' and (text() = 'delete' or . = 'delete')]</value>
    </webElementXpaths>
 </WebElementEntity>

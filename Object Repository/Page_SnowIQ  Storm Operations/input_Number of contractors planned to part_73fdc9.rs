@@ -6,12 +6,12 @@
    <elementGuidId>9e68a1ac-8cd1-4f7c-83bb-ee5aa1f33061</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='plannedNumberOfContractors']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;plannedNumberOfContractors&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='plannedNumberOfContractors']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

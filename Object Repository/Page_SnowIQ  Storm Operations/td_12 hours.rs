@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Events</name>
+   <name>td_12 hours</name>
    <tag></tag>
-   <elementGuidId>91151ccb-6802-4975-9a53-86914284f189</elementGuidId>
+   <elementGuidId>14f4f8cc-119c-41e4-9cba-98f3999fbfdd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.header.ng-tns-c68-7.ng-star-inserted</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Administration'])[1]/following::div[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Training event'])[1]/following::td[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,62 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>header ng-tns-c68-7 ng-star-inserted</value>
+      <value>td</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Events </value>
+      <value>12 hours</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-default-page-layout[@class=&quot;ng-star-inserted&quot;]/app-layout[1]/app-sidebar[@class=&quot;ng-tns-c71-0 ng-star-inserted _opened&quot;]/div[@class=&quot;sidebar ng-tns-c71-0 ng-star-inserted _opened&quot;]/div[@class=&quot;menu-wrapper ng-tns-c71-0&quot;]/app-menu[@class=&quot;ng-tns-c71-0&quot;]/div[@class=&quot;menu ng-star-inserted&quot;]/app-menu-partition[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;subitems-wrapper&quot;]/app-menu-group[@class=&quot;ng-tns-c68-7 ng-star-inserted&quot;]/div[@class=&quot;header ng-tns-c68-7 ng-star-inserted&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-default-page-layout[@class=&quot;ng-star-inserted&quot;]/app-layout[1]/div[@class=&quot;body&quot;]/app-events-root[@class=&quot;ng-star-inserted&quot;]/app-page-body-container[1]/div[@class=&quot;content-wrapper&quot;]/app-events-list[@class=&quot;content&quot;]/app-loader[1]/table[@class=&quot;table table_main table_td_middle ng-star-inserted&quot;]/tbody[1]/tr[@class=&quot;ng-star-inserted&quot;]/td[4]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administration'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Training event'])[1]/following::td[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign to Inspectors'])[1]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::td[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Management'])[1]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[1]/preceding::td[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phases'])[2]/preceding::td[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//app-menu-partition[2]/div[2]/app-menu-group/div</value>
+      <value>//td[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = ' Events ' or . = ' Events ')]</value>
+      <value>//td[(text() = '12 hours' or . = '12 hours')]</value>
    </webElementXpaths>
 </WebElementEntity>

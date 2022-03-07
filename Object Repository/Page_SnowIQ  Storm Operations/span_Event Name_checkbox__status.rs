@@ -6,12 +6,12 @@
    <elementGuidId>7031c40b-4cc7-4dd4-a7b0-b9913852b152</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.checkbox__status</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
