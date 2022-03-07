@@ -6,12 +6,12 @@
    <elementGuidId>e7928a55-206d-4579-b6b8-04290f2657e9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Events'])[1]/following::div[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>app-menu-link.ng-tns-c67-8.ng-star-inserted > div.link._tree-mode</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Events'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -57,7 +57,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-default-page-layout[@class=&quot;ng-star-inserted&quot;]/app-layout[1]/app-sidebar[@class=&quot;ng-tns-c71-0 ng-star-inserted _opened&quot;]/div[@class=&quot;sidebar ng-tns-c71-0 _opened&quot;]/div[@class=&quot;menu-wrapper ng-tns-c71-0&quot;]/app-menu[@class=&quot;ng-tns-c71-0&quot;]/div[@class=&quot;menu ng-star-inserted&quot;]/app-menu-partition[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;subitems-wrapper&quot;]/app-menu-group[@class=&quot;ng-tns-c68-7 ng-star-inserted&quot;]/app-menu-links[@class=&quot;ng-tns-c67-8 ng-tns-c68-7 ng-trigger ng-trigger-collapse ng-star-inserted&quot;]/app-menu-link[@class=&quot;ng-tns-c67-8 ng-star-inserted&quot;]/div[@class=&quot;link _tree-mode&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-default-page-layout[@class=&quot;ng-star-inserted&quot;]/app-layout[1]/app-sidebar[@class=&quot;ng-tns-c71-0 ng-star-inserted _opened&quot;]/div[@class=&quot;sidebar ng-tns-c71-0 ng-star-inserted _opened&quot;]/div[@class=&quot;menu-wrapper ng-tns-c71-0&quot;]/app-menu[@class=&quot;ng-tns-c71-0&quot;]/div[@class=&quot;menu ng-star-inserted&quot;]/app-menu-partition[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;subitems-wrapper&quot;]/app-menu-group[@class=&quot;ng-tns-c68-7 ng-star-inserted&quot;]/app-menu-links[@class=&quot;ng-tns-c67-8 ng-tns-c68-7 ng-trigger ng-trigger-collapse ng-star-inserted&quot;]/app-menu-link[@class=&quot;ng-tns-c67-8 ng-star-inserted&quot;]/div[@class=&quot;link _tree-mode&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

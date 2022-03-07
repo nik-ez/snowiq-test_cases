@@ -6,12 +6,12 @@
    <elementGuidId>47232fbd-08b3-45ff-afef-ac54edb48963</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='createNewEventButton']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#createNewEventButton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='createNewEventButton']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -105,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[4]/button</value>
+      <value>//div[4]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +113,12 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'createNewEventButton' and @type = 'button' and (text() = 'Create New Storm Event' or . = 'Create New Storm Event')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[4]/button</value>
    </webElementXpaths>
 </WebElementEntity>

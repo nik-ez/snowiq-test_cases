@@ -6,12 +6,12 @@
    <elementGuidId>43419f56-9d64-4a30-8bf4-86b528f2b790</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='predictedPrecipitation']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;predictedPrecipitation&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='predictedPrecipitation']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

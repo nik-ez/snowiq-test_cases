@@ -6,12 +6,12 @@
    <elementGuidId>3d82f40d-f57f-430a-8dd4-e197e3c2ad93</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='createNewEventPopup']/div/div[3]/div/form/app-checkbox/div/label/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>form.ng-dirty.ng-touched.ng-valid > app-checkbox > div.checkbox > label > span.checkbox__status</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='createNewEventPopup']/div/div[3]/div/form/app-checkbox/div/label/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

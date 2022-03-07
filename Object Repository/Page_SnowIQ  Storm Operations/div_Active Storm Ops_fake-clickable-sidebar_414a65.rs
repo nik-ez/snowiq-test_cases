@@ -6,12 +6,12 @@
    <elementGuidId>bec0ad24-cec2-4f7d-b63c-59d44fb6d8d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.fake-clickable-sidebar.ng-tns-c71-0.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-default-page-layout[@class=&quot;ng-star-inserted&quot;]/app-layout[1]/app-sidebar[@class=&quot;ng-tns-c71-0 ng-star-inserted&quot;]/div[@class=&quot;sidebar ng-tns-c71-0&quot;]/div[@class=&quot;fake-clickable-sidebar ng-tns-c71-0 ng-star-inserted&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-default-page-layout[@class=&quot;ng-star-inserted&quot;]/app-layout[1]/app-sidebar[@class=&quot;ng-tns-c71-0 ng-star-inserted&quot;]/div[@class=&quot;sidebar ng-tns-c71-0 ng-star-inserted&quot;]/div[@class=&quot;fake-clickable-sidebar ng-tns-c71-0 ng-star-inserted&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

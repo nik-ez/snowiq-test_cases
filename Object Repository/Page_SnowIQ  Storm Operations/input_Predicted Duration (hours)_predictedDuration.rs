@@ -6,12 +6,12 @@
    <elementGuidId>eeae8e47-7c59-4855-ba1f-d88d916c7fe3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='predictedDuration']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;predictedDuration&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='predictedDuration']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
