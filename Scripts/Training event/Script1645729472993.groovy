@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+'Login as an Admin user'
 WebUI.navigateToUrl('https://st-wa-qa-adminportal.azurewebsites.net/mc/login')
 
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_EBT Login'))

@@ -6,6 +6,7 @@
    <UUID>b1c51ef0-cd2f-4a6d-bcfa-75e153b9ce81</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/nik.e/Docs/SnowiQ/snowiq-test_cases/snowiq-test_cases.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

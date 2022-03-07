@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+'Login as an Admin user'
+
 WebUI.navigateToUrl('https://st-wa-qa-adminportal.azurewebsites.net/mc/login')
 
 WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/button_EBT Login'))
@@ -29,37 +31,9 @@ WebUI.click(findTestObject('Object Repository/Page_Sign in to your account/input
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to your account/input_Enter password_passwd'), 'kiUD9XAtEi7WpcB4ZdH2rQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_Sign in to your account/input_Sign in_idSIButton9'))
 
-WebUI.click(findTestObject('Object Repository/Page_Sign in to your account/input_Sign in_idSIButton9'))
 
-WebUI.acceptAlert()
 
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Active Storm Ops_fake-clickable-sidebar_414a65'))
+'Close the browser'
 
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/svg_Active Storm Reports_icon'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/svg_Resource Management_icon'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/svg_Events_icon'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Active Storm Ops'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Active Storm Ops'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Routes'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Resources'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Active Storm Ops_fake-clickable-sidebar_414a65'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Service Tickets'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Active Storm Ops_fake-clickable-sidebar_414a65'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Phases'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Active Storm Ops_fake-clickable-sidebar_414a65'))
-
-WebUI.click(findTestObject('Object Repository/Page_SnowIQ  Storm Operations/div_Storm Log'))
-
+WebUI.closeBrowser('')
