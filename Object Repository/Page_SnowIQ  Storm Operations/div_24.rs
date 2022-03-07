@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_24</name>
+   <tag></tag>
+   <elementGuidId>11ce41ed-9485-4a25-8e60-f4dc50ea4742</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='createNewEventPopup']/div/div[3]/div/form/div[2]/div/app-datepicker/div/div/app-calendar/div/div[2]/div[4]/div[5]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>calendar__day</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 24 </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-default-page-layout[@class=&quot;ng-star-inserted&quot;]/app-layout[1]/div[@class=&quot;body&quot;]/app-events-root[@class=&quot;ng-star-inserted&quot;]/app-create-event[@class=&quot;ng-star-inserted&quot;]/app-popup[@id=&quot;createNewEventPopup&quot;]/div[@id=&quot;createNewEventPopup&quot;]/div[@class=&quot;snow-popup__window snow-popup__window_small&quot;]/div[@class=&quot;snow-popup__body&quot;]/div[1]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;controlgroup controlgroup_vertical controlgroup_full-width&quot;]/div[@class=&quot;controlgroup__control&quot;]/app-datepicker[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;datepicker datepicker_full-width&quot;]/div[@class=&quot;datepicker__calendar&quot;]/app-calendar[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;calendar&quot;]/div[@class=&quot;calendar__body&quot;]/div[@class=&quot;calendar__row ng-star-inserted&quot;]/div[@class=&quot;calendar__cell calendar__cell_clickable ng-star-inserted&quot;]/div[@class=&quot;calendar__day&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='createNewEventPopup']/div/div[3]/div/form/div[2]/div/app-datepicker/div/div/app-calendar/div/div[2]/div[4]/div[5]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='February 2022'])[5]/following::div[58]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activation Time'])[2]/following::div[65]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AM'])[1]/preceding::div[28]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Predicted Precipitation (inches)'])[1]/preceding::div[35]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/app-datepicker/div/div/app-calendar/div/div[2]/div[4]/div[5]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 24 ' or . = ' 24 ')]</value>
+   </webElementXpaths>
+</WebElementEntity>
